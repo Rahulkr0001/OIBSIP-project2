@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>rahul - Portfolio Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Poppins:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(22, 60, 52);
+            color: rgb(255, 255, 255);
+            font-family: 'Poppins', sans-serif;
+            ;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 60px;
+            background-color: rgb(241, 83, 75);
+            ;
+
+        }
+
+        nav ul {
+            display: flex;
+            justify-content: center;
+        }
+
+        nav ul li {
+            list-style-type: none;
+            margin: 0 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li a:hover {
+            color: rgb(7, 7, 11);
+            font-size: 1.1rem;
+        }
+
+        .left {
+            font-size: 1.5rem;
+        }
+
+        .firstsection {
+            display: flex;
+            justify-content: space-around;
+            margin: 80px 0;
+        }
+
+        .firstsection>div {
+            width: 27%;
+        }
+
+        .leftsection {
+            font-size: 2rem;
+        }
+
+        .leftsection .btn {
+            padding: 12px;
+            background-color: #c42a24;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            font-size: 15px;
+            cursor: pointer;
+
+        }
+
+        .rightsection img {
+            mix-blend-mode: multiply;
+            width: 80%;
+            margin: 10px 0;
+        }
+
+        .purple {
+            color: rgb(65, 202, 134);
+        }
+
+        .text-gray {
+            color: rgba(255, 255, 255, 0.993);
+        }
+
+        #element {
+            color: rgb(65, 202, 134);
+            ;
+        }
+
+        .secondsection {
+            max-width: 80vw;
+            margin: auto;
+            height: 80vh;
+        }
+
+        .secondsection h1 {
+            font-size: 1.9rem;
+
+        }
+
+        main hr {
+            border: 0px;
+            background-color: #e02727;
+            height: 1.5px;
+            margin: 40px 84px;
+        }
+
+        .secondsection .box {
+            background: #ffffff;
+            width: 160vh;
+            height: 2px;
+            margin: 40px 0;
+            display: flex;
+        }
+
+        .secondsection .vertical {
+            height: 70px;
+            width: 1px;
+            background-color: white;
+            margin: 0 100px;
+        }
+
+        .image-top {
+            width: 50px;
+            mix-blend-mode: multiply;
+            position: relative;
+            bottom: 40px;
+            right: 20px;
+
+        }
+
+        .vertical-title {
+            position: relative;
+            top: 20px;
+            width: 150px;
+        }
+
+        .vertical-desc {
+            position: relative;
+            top: 20px;
+            color: rgb(40, 237, 73);
+            font-size: 10px;
+            width: 100px;
+        }
+
+        footer {
+            background-color: #75cadf;
+            height: 300px;
+        }
+
+        .footer {
+            display: flex;
+            padding: 23px 122px;
+            justify-content: space-evenly;
+        }
+
+        .footer li {
+            list-style: none;
+            font-size: small;
+            color: rgb(0, 0, 0);
+        }
+
+        .footer>div {
+            width: 200px;
+        }
+
+        footer .footer-rights {
+            text-align: center;
+            color: rgb(9, 4, 4);
+            padding: 15px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="left">Rahul's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/">About</a></li>
+                    <li><a href="/">Services</a></li>
+                    <li><a href="/">Projects</a></li>
+                    <li><a href="/">Contact Me</a></li>
+
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section class="firstsection">
+            <div class="leftsection">
+                Hi , My name is <span class="purple">RAHUL</span>
+                <div> and I am a passionate</div>
+                <span id="element"></span>
+                <div class="buttons">
+                    <button class="btn">Download Resume</button>
+                   <a href="https://github.com/discussions"> <button class="btn">Visit Github</button></a>
+                </div>
+            </div>
+            <div class="rightsection">
+                <img src="OIP.jpg.jpeg" alt="">
+            </div>
+        </section>
+        <hr>
+        <section class="secondsection">
+            <span class="text-gray">What i have done so far</span>
+            <h1>Work Experience</h1>
+            <div class="box">
+                <div class="vertical">
+                    <img src="shadow.png.jpeg" alt="" class="image-top">
+                    <div class="vertical-title">
+                        HTML Developer (2020-2021)
+                    </div>
+                    <div class="vertical-desc">
+                        Started learning HTML its skeleton and basics tags.
+                        For sometimes different tags and also gain knowlwdge of HTML5.
+                    </div>
+                </div>
+                <div class="vertical"> <img src="shadow.png.jpeg" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Learned CSS(2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        Learned about simple CSS designing fonts and styling the borders and outlines.
+                        colors & background effects.
+                    </div>
+                </div>
+                <div class="vertical"> <img src="shadow.png.jpeg" alt="" class="image-top">
+                    <div class="vertical-title">
+                        CSS Box Modeling & designing (2021-2022)
+                    </div>
+                    <div class="vertical-desc">
+                        CSS box modelling is about to designing the webpage for different model.
+                        It is very necessary to know about CSS box model.
+                    </div>
+                </div>
+                <div class="vertical"> <img src="shadow.png.jpeg" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Javascript(2022-2023)
+                    </div>
+                    <div class="vertical-desc">
+                        I have learned about Javascript.It's a scripting language and used todosome logical events in the webpages.
+                    </div>
+                </div>
+                <div class="vertical"> <img src="shadow.png.jpeg" alt="" class="image-top">
+                    <div class="vertical-title">
+                        Simple Projects & React technology (2023-20...)
+                    </div>
+                    <div class="vertical-desc">
+                        Done some simple projects like portfolios clone websites and so on.
+                        And still learning React framework. 
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="footer">
+            <div class="footer-first">
+                <h1> Rahul's Developer Portfolio</h1>
+            </div>
+            <div class="footer-second">
+                <ul>
+                    <li><a
+                            href="https://www.wix.com/website/design?utm_source=google&utm_medium=cpc&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkzXDgTVPCJJmnjeXaSpWNhSnxHdVxQhFjcAqDDkjvO_y4pnOmqj7MhoCd84QAvD_BwE"></a>WIX
+                    </li>
+                    <li><a
+                            href="https://www.wix.com/blog/how-to-make-a-website?utm_source=google&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk9Qgch8At0Biu1eAbCkCa9NLnss63OVOnyLc3nraOTxjya7z1Jh93hoCb6kQAvD_BwE&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&utm_medium=cpc"></a>WIX
+                        Blog</li>
+                    <li><a
+                            href="https://www.hostinger.in/tutorials/portfolio-website-examples?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=9300910&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk6ZR2tVWegEHA1IBQDoMlvMhoOfMHFxf_jUJuEgk_eKDEblUf8ul2hoCHg8QAvD_BwE"></a>Hostinger
+                    </li>
+                    <li><a href="https://colorlib.com/wp/best-portfolio-websites/"></a>ColorLIB</li>
+                </ul>
+            </div>
+            <div class="footer-third">
+                <ul>
+                    <li><a
+                            href="https://www.wix.com/website/design?utm_source=google&utm_medium=cpc&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkzXDgTVPCJJmnjeXaSpWNhSnxHdVxQhFjcAqDDkjvO_y4pnOmqj7MhoCd84QAvD_BwE"></a>WIX
+                    </li>
+                    <li><a
+                            href="https://www.wix.com/blog/how-to-make-a-website?utm_source=google&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk9Qgch8At0Biu1eAbCkCa9NLnss63OVOnyLc3nraOTxjya7z1Jh93hoCb6kQAvD_BwE&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&utm_medium=cpc"></a>WIX
+                        Blog</li>
+                    <li><a
+                            href="https://www.hostinger.in/tutorials/portfolio-website-examples?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=9300910&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk6ZR2tVWegEHA1IBQDoMlvMhoOfMHFxf_jUJuEgk_eKDEblUf8ul2hoCHg8QAvD_BwE"></a>Hostinger
+                    </li>
+                    <li><a href="https://colorlib.com/wp/best-portfolio-websites/"></a>ColorLIB</li>
+                </ul>
+            </div>
+            <div class="footer-fourth">
+                <ul>
+                    <li><a
+                            href="https://www.wix.com/website/design?utm_source=google&utm_medium=cpc&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&gclid=CjwKCAjw-7OlBhB8EiwAnoOEkzXDgTVPCJJmnjeXaSpWNhSnxHdVxQhFjcAqDDkjvO_y4pnOmqj7MhoCd84QAvD_BwE"></a>WIX
+                    </li>
+                    <li><a
+                            href="https://www.wix.com/blog/how-to-make-a-website?utm_source=google&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk9Qgch8At0Biu1eAbCkCa9NLnss63OVOnyLc3nraOTxjya7z1Jh93hoCb6kQAvD_BwE&utm_campaign=16242175905^134377094078&experiment_id=^^582523585398^&utm_medium=cpc"></a>WIX
+                        Blog</li>
+                    <li><a
+                            href="https://www.hostinger.in/tutorials/portfolio-website-examples?ppc_campaign=google_search_generic_hosting_all&bidkw=defaultkeyword&lo=9300910&gclid=CjwKCAjw-7OlBhB8EiwAnoOEk6ZR2tVWegEHA1IBQDoMlvMhoOfMHFxf_jUJuEgk_eKDEblUf8ul2hoCHg8QAvD_BwE"></a>Hostinger
+                    </li>
+                    <li><a href="https://colorlib.com/wp/best-portfolio-websites/"></a>ColorLIB</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-rights">
+            Copyright &#169; rahulportfolio.com | All rights reserved.
+        </div>
+    </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['web developer.', '', '&amp; web designer.'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+
+</html>
